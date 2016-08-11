@@ -42,8 +42,7 @@
 		<form action="op.php" method="POST">
 			<input name="name" placeholder="Имя" required>
 			<input name="fami" placeholder="Фамилия" required>
-			<input name="fami" placeholder="Фамилия" required>
-			<input name="fami" placeholder="Фамилия" required>
+			<input name="from" placeholder="Город" required>
 			<input type="submit">
 		</form>
 		
