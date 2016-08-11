@@ -1,0 +1,196 @@
+body{
+	margin:0;
+	padding:0;
+	background:#ddd;
+	
+	color:#333;
+	font-size:15px;
+	line-height:22px;
+	font-family:Helvetica, sans-serif;
+}
+
+#a{
+	width:400px;
+	min-height:400px;
+	margin:100px auto;
+	padding:50px;
+	background:#fff;
+	box-shadow:0 0 7px #777;
+	border-radius:5px;
+}
+
+a{
+	color:#000;
+	text-decoration:none;
+}
+
+#br{
+	clear:both;
+}
+
+
+
+/*ТАБЛИЦА*/
+
+table{
+	width:100%;
+	margin:10px 0;
+	border-collapse:collapse;
+}
+
+tr{
+	background:#fff;
+}
+
+tr:nth-child(odd){
+	background:#efefef;
+}
+
+td{
+	padding:3px 12px;
+	border:1px solid #ddd;
+	font-size:14px;
+}
+
+/*ТАБЛИЦА*/
+
+/*ФОРМА*/
+	input, input[type=text], input[type=tel], input[type=email], input[type=password]{
+		display: block;
+		width:200px;
+		margin:0 0 5px;
+		padding:3px 12px;
+		border:1px solid #ccc;
+		border-radius:4px;
+		outline:none;
+		box-shadow:inset 0 0 9px #eee;
+		
+		color:#73021c;
+		font-size:14px;
+		line-height:23px;
+		font-family:Helvetica, sans-serif;
+	}
+	
+	input[type=submit]{
+		display: block;
+		width:150px;
+		margin:10px 0 0;
+		padding:5px 0;
+		border-radius:7px;
+		outline:none;
+		box-shadow:0 0 5px #ccc;
+		
+		color:#fff;
+		font-size:16px;
+		font-weight:600;
+		line-height:23px;
+		letter-spacing:0.5px;
+		text-shadow:0 0 1px #777;
+		font-family:Helvetica, sans-serif;
+		
+		-webkit-transition-duration: 0.3s;
+		-o-transition-duration: 0.3s;
+		-moz-transition-duration: 0.3s;
+		transition-duration: 0.3s;
+		
+		background: #f9c667;
+		background: -moz-linear-gradient(top,  #f9c667 0%, #f79621 100%);
+		background: -webkit-linear-gradient(top,  #f9c667 0%,#f79621 100%);
+		background: linear-gradient(to bottom,  #f9c667 0%,#f79621 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9c667', endColorstr='#f79621',GradientType=0 );
+
+	}
+	
+	input[type=submit]:hover{
+		box-shadow:0 0 1px #bbb;
+		
+		-webkit-transition-duration: 0.3s;
+		-o-transition-duration: 0.3s;
+		-moz-transition-duration: 0.3s;
+		transition-duration: 0.3s;
+	}
+	
+	input[type=submit]:active{
+		box-shadow:0 0 0px #bbb;
+	}
+	
+	input[type=checkbox]{
+		display:inline;
+		width:15px;
+		height:15px;
+		margin:0 3px 0 0;
+		position:relative;
+		top:3px;
+	}
+	
+	button{
+		display:block;
+		width:110px;
+		margin:0 0 5px;
+		padding:5px 10px;
+	}
+	
+	select{
+		display: block;
+		width:226px;
+		margin:0 0 5px;
+		padding:3px 12px;
+		border:1px solid #ccc;
+		border-radius:4px;
+		outline:none;
+		box-shadow:inset 0 0 9px #eee;
+		
+		color:#73021c;
+		font-size:14px;
+		line-height:23px;
+		font-family:Helvetica, sans-serif;
+	}
+	
+	textarea{
+		display:block;
+		min-width:378px;
+		max-width:378px;
+		min-height:100px;
+		margin:0 0 5px;
+		padding:5px 10px;
+		
+		border:1px solid #ccc;
+		border-radius:4px;
+		outline:none;
+		box-shadow:inset 0 0 9px #eee;		
+		
+		color:#73021c;
+		font-size:14px;
+		line-height:23px;
+		font-family:Helvetica, sans-serif;		
+	}
+/*ФОРМА*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
